@@ -13,7 +13,8 @@ install : sudo apt install i7z \
 source : https://www.tecmint.com/monitor-cpu-and-gpu-temperature-in-ubuntu/
 
 ## Find graphic cards
-cmd: lspci | grep VGA
+cmd: lspci | grep VGA \
 shows: GPU card's model \
-install : preinstalled
+install : preinstalled \
 source : https://askubuntu.com/questions/72766/how-do-i-find-out-the-model-of-my-graphics-card
+(better than "sudo lshw -C display -short" as it shows manufacturer also)
