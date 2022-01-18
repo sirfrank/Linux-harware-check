@@ -8,7 +8,7 @@ source : my brain\
 
 ## Intel Core i7, i5, i3 CPU information
 cmd : sudo i7z \
-shows: CPU information including temperatures \
+shows: CPU information including temperatures , physical and virtual cores\
 install : sudo apt install i7z \
 source : https://www.tecmint.com/monitor-cpu-and-gpu-temperature-in-ubuntu/
 
